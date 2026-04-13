@@ -1,1 +1,32 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Show/Hide Heading</title>
+  <link rel="stylesheet" href="hello.css" />
+  <script src="hello.js" defer></script>
+</head>
+<body>
+  <button onclick="hideHeading()">Hide Heading</button>
+  <button onclick="showHeading()">Show Heading</button>
+  <button onclick="clickme()">Click Here</button>
+ 
+  <h1 id="main-heading">
+    H-Hyper : Being Super Interactive (HTML is very interactive as
+    it can be executed in any browser, and can get the data from
+    anywhere in the Web)
+  </h1>
+ 
+  <p>Some features of HTML which make it hyper:</p>
+  <ul>
+    <li>Anchor tag "a"</li>
+    <li>Forms</li>
+  </ul>
+ 
+  <p>
+    T-Text: in HTML Text means any visible component in a web page. These reside in the body of the page.
+    Text can be plain text, images, video, links, tables, etc.
+  </p>
+</body>
+</html>
+ 
